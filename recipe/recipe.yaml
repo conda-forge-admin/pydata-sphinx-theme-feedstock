@@ -6,7 +6,7 @@ context:
   # build
   nodejs_min: "22.9"
   # run
-  sphinx_min: "7.0"
+  sphinx_min: "8.0"
   sphinx_max: "10.0"
   # test
   python_check_max: "3.14"
