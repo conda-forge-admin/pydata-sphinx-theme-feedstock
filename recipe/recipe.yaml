@@ -35,6 +35,7 @@ requirements:
   build:
     - nodejs ${{ nodejs_min }}.*
   host:
+    - babel
     - pip
     - python ${{ python_min }}.*
     - sphinx-theme-builder >=0.3.2
