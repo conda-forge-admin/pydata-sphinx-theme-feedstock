@@ -38,17 +38,17 @@ requirements:
     - babel
     - pip
     - python ${{ python_min }}.*
-    - setuptools
     - sphinx-theme-builder >=0.3.2
   run:
     - accessible-pygments
     - babel
     - beautifulsoup4
     - docutils !=0.17.0
+    - jinja2
     - pygments >=2.7
     - python >=${{ python_min }}
+    - requests
     - sphinx >=${{ sphinx_min }}
-    - typing_extensions
 
 tests:
   - python:
@@ -62,8 +62,10 @@ tests:
         - pytest-cov
         - pytest-playwright
         - pytest-regressions
+        - rich
         - python ${{ python_min }}.*
         - sphinx ${{ sphinx_min }}.*
+        - typing_extensions
     files:
       source:
         - pyproject.toml
