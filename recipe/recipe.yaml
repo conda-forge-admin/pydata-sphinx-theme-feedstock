@@ -4,9 +4,10 @@ schema_version: 1
 context:
   version: "0.19.0"
   # build
+  python_min: "3.11"
   nodejs_min: "22.9"
   # run
-  sphinx_min: "8.0"
+  sphinx_min: "8.2"
   sphinx_max: "10.0"
   # test
   python_check_max: "3.14"
