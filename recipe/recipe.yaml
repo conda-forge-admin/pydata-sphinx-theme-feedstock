@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.20.0"
+  version: "0.20.1"
   # build
   python_min: "3.11"
   nodejs_min: "22.9"
@@ -20,7 +20,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pydata-sphinx-theme/pydata_sphinx_theme-${{ version }}.tar.gz
-  sha256: 0da172d41e19a66de875f4002f7054b385372ec65763852193791e658d50bb4a
+  sha256: dc3f71216ea34725ddad68e505497eab4ba134a88abfb971a7df6b28a35c1997
 
 build:
   number: 0
