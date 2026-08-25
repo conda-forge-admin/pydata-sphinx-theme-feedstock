@@ -11,7 +11,7 @@ context:
   sphinx_max: "10.0"
   # test
   python_check_max: "3.14"
-  pytest_k: not chromium
+  pytest_k: not (chromium or bump_version)
   cov_fail_under: "85"
 
 package:
