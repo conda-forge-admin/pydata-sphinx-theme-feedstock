@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.20.1"
+  version: "0.21.0"
   # build
   python_min: "3.11"
   nodejs_min: "22.9"
